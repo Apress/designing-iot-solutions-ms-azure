@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30320.27
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "rfidauditor", "rfidauditor.csproj", "{32D57D4D-96A9-4EFE-838B-325C873B863C}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "supplychain", "..\supplychain\supplychain.sqlproj", "{72371C97-2C2E-44D9-BA19-202D8B006F33}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{32D57D4D-96A9-4EFE-838B-325C873B863C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32D57D4D-96A9-4EFE-838B-325C873B863C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32D57D4D-96A9-4EFE-838B-325C873B863C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32D57D4D-96A9-4EFE-838B-325C873B863C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{72371C97-2C2E-44D9-BA19-202D8B006F33}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72371C97-2C2E-44D9-BA19-202D8B006F33}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72371C97-2C2E-44D9-BA19-202D8B006F33}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{72371C97-2C2E-44D9-BA19-202D8B006F33}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72371C97-2C2E-44D9-BA19-202D8B006F33}.Release|Any CPU.Build.0 = Release|Any CPU
+		{72371C97-2C2E-44D9-BA19-202D8B006F33}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {60C3FAB3-AFF5-44ED-8285-AB1943B8A047}
+	EndGlobalSection
+EndGlobal

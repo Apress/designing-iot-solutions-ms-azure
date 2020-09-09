@@ -1,0 +1,4 @@
+SELECT * FROM devices
+
+SELECT COUNT() AS numberOfDevices FROM devices
+

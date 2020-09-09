@@ -1,0 +1,68 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30204.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DeviceManagement", "DeviceManagement", "{4AC3BF0F-1CCA-472F-B8C2-AA05C280DF2F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CreateDevice", "CreateDevice", "{E9DFBCF2-229A-4ABE-8EC9-6BCB0745B06F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IoT.Solutions.SmartIndustrialApplications.CreateDevice", "DeviceManagement\CreateDevice\IoT.Solutions.SmartIndustrialApplications.CreateDevice.csproj", "{B3E7EFF0-7A38-48C7-AF20-7258727B34A6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{D0CE1932-52F6-4510-B1C1-1B49D0866A41}"
+	ProjectSection(SolutionItems) = preProject
+		LICENSE.txt = LICENSE.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SendCloudToDeviceMessages", "SendCloudToDeviceMessages", "{E70A2005-E2DD-4750-9B72-F48F40CA9717}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IoT.Solutions.SmartIndustrialApplications.SendC2DMessages", "DeviceManagement\SendCloudToDeviceMessages\IoT.Solutions.SmartIndustrialApplications.SendC2DMessages.csproj", "{35226423-8DA5-4443-9F38-38BEE1B14473}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DeviceQuery", "DeviceQuery", "{24A041BF-73E1-4723-8B43-64574C5F711C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IoT.Solutions.SmartIndustrialApplications.DeviceTwin", "DeviceManagement\DeviceQuery\IoT.Solutions.SmartIndustrialApplications.DeviceTwin.csproj", "{8900E0EA-0DC9-4E9E-9B0F-1E5A407C260A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SendDeviceToCloudMessages", "SendDeviceToCloudMessages", "{B2B7DC77-980B-41EA-AA2C-A76436549D27}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IoT.Solutions.SmartIndustrialApplications.SendD2CMessages", "DeviceManagement\SendDeviceToCloudMessages\IoT.Solutions.SmartIndustrialApplications.SendD2CMessages.csproj", "{BA9D5FC6-234C-4126-A23D-FB08BF30747E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B3E7EFF0-7A38-48C7-AF20-7258727B34A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3E7EFF0-7A38-48C7-AF20-7258727B34A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3E7EFF0-7A38-48C7-AF20-7258727B34A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3E7EFF0-7A38-48C7-AF20-7258727B34A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{35226423-8DA5-4443-9F38-38BEE1B14473}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35226423-8DA5-4443-9F38-38BEE1B14473}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35226423-8DA5-4443-9F38-38BEE1B14473}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35226423-8DA5-4443-9F38-38BEE1B14473}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8900E0EA-0DC9-4E9E-9B0F-1E5A407C260A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8900E0EA-0DC9-4E9E-9B0F-1E5A407C260A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8900E0EA-0DC9-4E9E-9B0F-1E5A407C260A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8900E0EA-0DC9-4E9E-9B0F-1E5A407C260A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA9D5FC6-234C-4126-A23D-FB08BF30747E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA9D5FC6-234C-4126-A23D-FB08BF30747E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA9D5FC6-234C-4126-A23D-FB08BF30747E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA9D5FC6-234C-4126-A23D-FB08BF30747E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E9DFBCF2-229A-4ABE-8EC9-6BCB0745B06F} = {4AC3BF0F-1CCA-472F-B8C2-AA05C280DF2F}
+		{B3E7EFF0-7A38-48C7-AF20-7258727B34A6} = {E9DFBCF2-229A-4ABE-8EC9-6BCB0745B06F}
+		{E70A2005-E2DD-4750-9B72-F48F40CA9717} = {4AC3BF0F-1CCA-472F-B8C2-AA05C280DF2F}
+		{35226423-8DA5-4443-9F38-38BEE1B14473} = {E70A2005-E2DD-4750-9B72-F48F40CA9717}
+		{24A041BF-73E1-4723-8B43-64574C5F711C} = {4AC3BF0F-1CCA-472F-B8C2-AA05C280DF2F}
+		{8900E0EA-0DC9-4E9E-9B0F-1E5A407C260A} = {24A041BF-73E1-4723-8B43-64574C5F711C}
+		{B2B7DC77-980B-41EA-AA2C-A76436549D27} = {4AC3BF0F-1CCA-472F-B8C2-AA05C280DF2F}
+		{BA9D5FC6-234C-4126-A23D-FB08BF30747E} = {B2B7DC77-980B-41EA-AA2C-A76436549D27}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {10DF5A3F-B8BE-4E74-8B4C-1D8690D7D371}
+	EndGlobalSection
+EndGlobal
